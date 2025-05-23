@@ -5,6 +5,14 @@ This project consists of a spam classifier developed using Machine Learning tech
 
 The goal is to train models capable of distinguishing between legitimate emails (ham) and spam with high precision and recall, through a preprocessing pipeline and evaluation of multiple classification algorithms.
 
+**NOTE: Some of the cells may take a while to run, please be patient!** 
+
+---
+
+## 📂 Data Used
+
+The data used for training and testing the models comes from the [SpamAssassin Public Corpus](http://spamassassin.apache.org/old/publiccorpus/), a collection of spam and ham emails publicly available for spam filter research.
+
 ---
 
 ## ⚙️ Technologies and Libraries
@@ -25,7 +33,7 @@ The goal is to train models capable of distinguishing between legitimate emails 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/franciscoamador13/SpamClassifier.git
+git clone https://github.com/franciscoamador13/Spam-filter.git
 cd SpamClassifier
 ```
 2. **Install jupyter notebook:**
@@ -33,21 +41,13 @@ cd SpamClassifier
 pip install notebook
 ```
 
-3. **(Optional) Create a virtual environment:**
-
-```bash
-python -m venv venv
-source venv/bin/activate    # Linux/macOS
-venv\Scripts\activate       # Windows
-```
-
-4. **Install dependencies:**
+3. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. **Run the notebook:**
+4. **Run the notebook:**
 
 ```bash
 jupyter notebook SpamClassifier.ipynb
@@ -72,7 +72,7 @@ This project was inspired by and partially based on the book:
 > *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* – Aurélien Géron
 
 Parts of the code were adapted from the official repository::
-[https://github.com/ageron/handson-ml](https://github.com/ageron/handson-ml)
+[https://github.com/ageron/handson-ml3](https://github.com/ageron/handson-ml3)
 
 Specific notebook:
 https://github.com/ageron/handson-ml3/blob/main/03_classification.ipynb
